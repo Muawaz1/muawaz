@@ -1,0 +1,114 @@
+@import "./js/colors";
+body {
+  height:100vh ;
+  width: 100vw;
+  background-color:$primary-color;
+  background-image:url(images/bg-intro-desktop.png);
+}
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+p,h1 {
+  color: white;
+  font-weight: 400, 500, 600, 700;
+  font-family: 'Poppins', sans-serif;
+}
+h1{
+  width: 100%;
+  font-size: 28px;
+  font-weight: bold;
+}
+.first-column{
+  height: 30%;
+  width: 25%;
+  p{
+    line-height: 15px;
+    font-size: 10px;
+  }
+}
+.input-info{
+  display: flex;
+  flex-wrap: wrap;
+  width: 30%;
+  .package{
+    background: $tertiary-color;
+    border-radius: 0.5em;
+    text-align: center;
+    width: 120%;
+    height: 40px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 6px 2px rgb(107, 87, 87);
+    font-size: 10px;
+    span{
+      font-weight: bold;
+    }
+  }
+  .input{
+    padding: 5%;
+    border-radius: 0.5em;
+    background: white;
+    box-shadow: 0px 4px 6px 2px rgb(70, 68, 68);
+    p{
+      font-size: 10px;
+      color: $Grayish-Blue-color;
+      span{
+        color: $primary-color;
+      }
+    }
+    button{
+      color: white;
+      margin: 10px;
+      border-radius: 00.5em;
+      background: $secondary-color ;
+      width: 85%;
+      height: 35px;
+    }
+  }
+  form{
+    input{
+      border-radius: 00.5em;
+      margin: 10px;
+      width: 80%;
+      height: 30px;
+    }
+
+  }  
+
+  } 
+  .error{
+    visibility: hidden;
+
+  }
+    .error-g{
+      visibility: hidden;
+    }
+    .error-c{
+      position: absolute;
+      line-height: 57px;
+      bottom: 58%;
+      left: 70%;
+    }
+
+    .error-d{
+      position: absolute;
+      line-height: 57px;
+      bottom: 49%;
+      left: 70%;
+    }
+    .error-e{
+      position: absolute;
+      line-height: 57px;
+      bottom: 40%;
+      left: 70%;
+    }
+    .error-f{
+      position: absolute;
+      line-height: 57px;
+      bottom: 31%;
+      left: 70%;
+    }
